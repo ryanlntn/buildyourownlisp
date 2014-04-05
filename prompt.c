@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
     char* input = readline("something> ");
     add_history(input);
 
-    printf("No you're a %s\n", input);
+    printf("I don't understand '%s'\n", input);
     free(input);
 
   }

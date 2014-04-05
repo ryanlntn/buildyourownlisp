@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main() {
-  puts("Hello, world!");
+int main(int argc, char** argv)
+{
+  puts("Hello World");
   return 0;
 }
 
